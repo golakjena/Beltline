@@ -1,1 +1,7 @@
 # Beltline
+```
+npm install
+
+grunt
+
+```

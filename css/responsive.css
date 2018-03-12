@@ -1,0 +1,182 @@
+@media (min-width:320px) and (max-width:767px){
+	.header{ display: block; }
+	a.menu-button{ display: block; }
+	.mainContent{ margin: 80px 0 0 0; min-height: auto;}
+	.contentLeft{ 
+	    -webkit-box-flex: none; 
+	    -ms-flex: none; 
+	    flex: none;
+	    width: 100%;
+	    height: 100%;
+	    position: fixed;
+	    right: -100%;
+	    top: 0;
+	    z-index: 9;
+	    opacity: 0;
+		-webkit-transition: all .3s linear;
+		-moz-transition: all .3s linear;
+		-o-transition: all .3s linear;
+		transition: all .3s linear;
+	}
+	.contentLeft.open{ right: 0; opacity: 1; } 
+	.dvLogo{ display: none; }
+	.navigation{
+		padding: 0 0 40px 0; 
+	    height: -webkit-calc(100% - 74px);
+	    height: -moz-calc(100% - 74px);
+	    height: calc(100% - 74px);
+	    overflow-y: auto;
+	}
+	.leftNav li a{ padding: 6px 0 6px 30px; }
+	.bookAppointment{ top: 10px; right: 10px;}
+	.btnAppointment{ font-size: 12px; background-size:30px; padding: 0 10px 0 40px; line-height: 40px;}
+	.frmAppointment{ top: 40px; width: 300px; }
+	.btnPopClose{ top: 10px; right: 10px; width: 20px; }
+
+	.dvHomeContent{ top: auto; transform: none; -moz-transform: none; -webkit-transform: none; }
+	.dvHomeContent h3{ font-size: 26px; line-height: 32px; }
+	.dvHomeContent h4{ font-size: 42px; line-height: 46px; }
+	.homeBg{ height: auto !important; padding:80px 0 50px 0; background-size: cover;}
+	.scrollToViewMore{ display: none !important; }
+	.testimonialOuter{ padding: 20px 15px; }
+	.heading{ font-size: 26px; margin: 0 0 35px 0; }
+	.heading::after{ width: 90px; bottom: -10px; height: 2px; }
+	.homeCnt{ padding: 20px 15px 0 15px; }
+	.homeCnt p{ font-size: 16px; line-height: 24px; margin: 0 0 20px 0; }
+	.greenBg{ padding: 20px 15px;}
+	.greenBg p{ font-size: 16px; line-height: 24px; margin: 0 0 20px 0; }
+	.tabWrapper{ padding: 0 0 30px 0; }
+	.tabWrapper a{ width: 50%; float: left; margin: 0; font-size: 16px; }
+	.tabWrapper a.activeTab::after{ bottom: -10px;}
+
+	.testimonialSlider::before{ width: 30px; height: 30px; background-size: 100%; top: -20px;}
+	.testimonialSlider{ padding: 0; background-size: 30px;}
+	.slideRow p{ font-size: 16px; line-height: 26px; }
+	.slideRow h5{ font-size: 18px; }
+	.seeWhat{ font-size: 16px; }
+	.photogalleryOuter{ padding: 20px 0; }
+	.imgCard{ width: 200px; height: 187px; }
+	.imgCard a{ height: 171px; }
+	.videogalleryOuter{ padding: 20px 15px; }
+	.video{ height: 200px; }
+	.logoSliderOuter{ padding: 20px 15px; }
+
+	.dvRightContent{ padding:70px 15px 20px 15px; }
+	.dvRightContentCont{ padding:20px 15px;}
+	.aboutUs p{ font-size: 16px; line-height: 24px; margin: 0 0 20px 0; }
+	.aboutUs h4{ font-size: 16px; line-height: 24px; }
+	.ourTeam{ padding: 30px 0 0 0; }
+	.dvTeam h5{ font-size: 20px; }
+	.dvTeam h6{ font-size: 14px; margin: 0 0 20px 0; }
+	.heading2{ font-size: 24px; margin: 0 0 30px 0; }
+	.heading2::after{ height: 2px; width: 90px; bottom: -10px; }
+
+	.dvHernia h3{ font-size: 18px; line-height: 24px; }
+	.videoCont{ margin: 0 0 30px 0; }
+	.dvHernia p{ font-size: 16px; line-height: 24px; margin: 0 0 20px 0; }
+	.contentRow.odd .contentRowLeft{ width: 100%; padding: 0; margin: 0 0 20px 0; }
+	.contentRowRight{ width: 100%; float: left; }
+	.dvHernia h5{ font-size: 24px; line-height: 30px; margin: 0 0 20px 0; padding: 0 0 10px 0; }
+	.dvHernia h5::after{ width: 90px; height: 2px; }
+	.contentRowLeft{ width: 100%; }
+	.contentRow.even .contentRowRight{ padding: 0; }
+	.listing li{ font-size: 15px; padding: 0 0 0 20px; margin: 0 0 10px 0;}
+	.listing li::before{ width: 7px; height: 7px; top: 10px; }
+
+	.blogRow.odd{ padding: 0; margin: 0 0 20px 0; }
+	.blogRow.even{ padding: 0; margin: 0 0 20px 0; }
+	.blogRow.odd .blogRowContLft{ width: 100%; left: auto; top: auto; border:0; }
+	.blogRow.even .blogRowContLft{ width: 100%; right: auto; top: auto; border:0; }
+	.blogRow.odd .blogRowContRht{ width: 100%; overflow: visible; float: left; padding: 15px; }
+	.blogRow.even .blogRowContRht{ width: 100%; overflow: visible; float: left; padding: 15px; }
+	.blogRow h4{ font-size: 18px; line-height: 22px; margin: 0 0 10px 0; }
+	.subHeading{ font-size: 15px; line-height: 18px; }
+	.blogRow p{ font-size: 16px; line-height: 24px; }
+	.blogRow a{ font-size: 16px; }
+
+	.blogDetails p{ font-size: 16px; line-height: 24px; margin: 0 0 20px 0; }
+	.blogDetails h5{ font-size: 20px; line-height: 26px; padding: 0; margin: 0 0 30px 0; }
+	.blogDetails h5::after{ width: 90px; height: 2px; bottom: -10px; }
+	.blogDetails h6{ font-size: 15px; line-height: 24px; }
+	.eventMap{ margin: 0 0 30px 0; }
+	.eventMap iframe{ height: 250px; }
+	.eventRow{ margin: 0 0 30px 0; }
+	.eventRowLft{ width: 40px; margin: 0 10px 0 0; }
+	.eventRowLft span{ width: 40px; height: 40px; line-height: 40px; font-size: 24px;}
+	.eventRowRht h4{ font-size: 16px; margin: 0 0 10px 0; }
+	.eventRowRht p{ font-size: 14px; }
+	.eventRowRht h5{ font-size: 15px; }
+	.imgPlaceholder{ width: 100%; float: left; margin: 0 0 20px 0; clear: both;}
+	.patientRow{ padding: 25px 0 0 0; }
+	.patientRow::before{ left: -15px; top: 36px; width: 10px; }
+	.txtBeforeAfter{ font-size: 12px; line-height: 14px; }
+	.dvGetintouch{ padding: 0 0 0 10px; }
+	.dvGetintouch h4{ font-size: 18px; line-height: 24px; }
+	.dvGetintouch h4::before{ height: 3px; width: 10px; left: -15px; }
+	.contactCol{ width: 100%; }
+	.btnDownload{ font-size: 14px; background-size: 30px; line-height: 32px; padding: 0 0 0 36px; }
+	.eventCont{ padding: 0; }
+	.eventCont h3{ font-size: 14px; line-height: 22px; margin: 0 0 30px 0; }
+
+	.footer{ padding: 15px 15px 15px 30px; }
+	.social{ margin: 0; }
+	.footer p{ display: none;}
+
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+	.contentLeft{ 
+	    -webkit-box-flex: 0; 
+	    -ms-flex: 0 0 200px; 
+	    flex: 0 0 200px;
+	}	
+	.dvLogo{ padding: 20px 0; }
+	.dvLogo a img{ width: 130px; }
+	.leftNav li{ font-size: 16px; }
+	.leftNav li a{ padding: 6px 0 6px 20px;}
+	.leftNav li ul li a{ padding: 3px 0 3px 34px; }
+	.homeBg{ height: 400px !important;}
+	.scrollToViewMore{ display: none !important;}
+	.bookAppointment{ top: 10px; right: 10px; }
+	.dvHomeContent{ top: 100px; transform: none; }
+	.dvHomeContent h3{ font-size: 32px; line-height: 36px; }
+	.dvHomeContent h4{ font-size: 68px; line-height: 72px; }
+	.testimonialOuter{ padding: 50px 30px; }
+	.slideRow p{ font-size: 16px; line-height: 28px; }
+	.heading{ font-size: 40px; }
+	.photogalleryOuter{ padding: 50px 0 50px 30px; }
+	.imgCard{ width: 200px; height: 178px; }
+	.imgCard a{ height: 163px; }
+	.videogalleryOuter{ padding:50px 30px; }
+	.logoSliderOuter{ padding: 50px 30px 20px 30px; }
+	.video{ height: 300px; }
+	
+	.dvRightContent{ padding: 100px 30px 30px 30px; }
+	.dvRightContentCont{ padding: 30px;}
+	.familyVideoCont{ margin: 0;}
+	.familyVideoCol{ width: 100%; margin: 0 0 20px 0;}
+	.dvHernia h3{ font-size: 26px; line-height: 32px; }
+	.dvHernia h5{ font-size: 26px; line-height: 30px; padding: 0 0 10px 0; }
+	.listing li{ font-size: 16px; line-height: 22px; }
+	.blogRow.odd .blogRowContLft{ display: none;}
+	.blogRow.odd{ padding: 0; }
+	.blogRow.even{ padding: 0; }
+	.blogRow.even .blogRowContLft{ display: none; }
+	.blogRow.odd{ margin: 0 0 30px 0; }
+	.blogRow.even{ margin: 0 0 30px 0; }
+
+	.blogDetails h5{ font-size: 26px; line-height: 30px; padding: 0 0 10px 0; }
+	.blogDetails p{ font-size: 18px; margin: 0 0 20px 0; }
+	.imgPlaceholder{ width: 200px; }
+
+	.eventRowLft{ width: 90px; margin: 0 30px 0 0; }
+	.eventRowLft span{ width: 90px; height: 90px; line-height: 90px; font-size: 38px; }
+	.eventMap iframe{ height: 350px; }
+
+	
+	.aboutImg{ width: 100%; float: left; margin: 0 0 30px 0; }
+	.tabWrapper a{ width: 50%; float: left; margin: 0; font-size: 20px; }
+
+	.footer{ padding: 20px; }
+}	
